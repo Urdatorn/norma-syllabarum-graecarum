@@ -1,0 +1,1085 @@
+2025-05-04 11:42:08,154 - Starting new log...
+2025-05-04 11:42:08,154 - #                                      _              
+2025-05-04 11:42:08,154 - # _ __ ___   __ _  ___ _ __ ___  _ __ (_)_______ _ __ 
+2025-05-04 11:42:08,154 - #| '_ ` _ \ / _` |/ __| '__/ _ \| '_ \| |_  / _ \ '__|
+2025-05-04 11:42:08,154 - #| | | | | | (_| | (__| | | (_) | | | | |/ /  __/ |   
+2025-05-04 11:42:08,154 - #|_| |_| |_|\__,_|\___|_|  \___/|_| |_|_/___\___|_|   
+2025-05-04 11:42:08,154 - #                                                     
+2025-05-04 11:42:08,154 - #                                                     
+2025-05-04 11:42:08,855 - Diagnostic word list: ['εἰπέ', 'θεά', 'Κρονίδαο', 'διάκτορον', 'αἴθοπος', 'αὐγῆς', 'νυμφιδίῳ', 'σπινθῆρι', 'μογοστόκον', 'ἄσθμα', 'κεραυνοῦ', 'καὶ', 'στεροπὴν', 'Σεμέλης', 'θαλαμηπόλον', 'εἰπὲ', 'δὲ', 'φύτλην', 'Βάκχου', 'δισσοτόκοιο', 'τὸν', 'ἐκ', 'πυρὸς', 'ὑγρὸν', 'ἀείρας', 'Ζεὺς', 'βρέφος', 'ἡμιτέλεστον', 'ἀμαιεύτοιο', 'τεκούσης', 'φειδομέναις', 'παλάμῃσι', 'τομὴν', 'μηροῖο', 'χαράξας', 'ἄρσενι', 'γαστρὶ', 'λόχευσε', 'πατὴρ', 'καὶ', 'πότνια', 'μήτηρ', 'εὖ', 'εἰδὼς', 'τόκον', 'ἄλλον', 'ἐπεὶ', 'γονόεντι', 'καρήνῳ', 'ἄσπορον', 'ὄγκον', 'ἄπιστον', 'ἔχων', 'ἐγκύμονι', 'κόρσῃ', 'τεύχεσιν', 'ἀστράπτουσαν', 'ἀνηκόντιζεν', 'Ἀθήνην', 'ἄξατέ', 'μοι', 'νάρθηκα', 'τινάξατε', 'κύμβαλα', 'Μοῦσαι', 'καὶ', 'παλάμῃ', 'δότε', 'θύρσον', 'ἀειδομένου', 'Διονύσου', 'ἀλλὰ', 'χοροῦ', 'ψαύοντα', 'Φάρῳ', 'παρὰ', 'γείτονι', 'νήσῳ', 'στήσατέ', 'μοι', 'Πρωτῆα', 'πολύτροπον', 'ὄφρα', 'φανείη', 'ποικίλον', 'εἶδος', 'ἔχων', 'ὅτι', 'ποικίλον', 'ὕμνον', 'ἀράσσω', 'εἰ', 'γὰρ', 'ἐφερπύσσειε', 'δράκων', 'κυκλούμενος', 'ὁλκῷ', 'μέλψω', 'θεῖον', 'ἄεθλον', 'ὅπως', 'κισσώδεϊ', 'θύρσῳ', 'φρικτὰ', 'δρακοντοκόμων', 'ἐδαΐζετο', 'φῦλα', 'Γιγάντων', 'εἰ', 'δὲ', 'λέων', 'φρίξειεν', 'ἐπαυχενίην', 'τρίχα', 'σείων', 'Βάκχον', 'ἀνευάξω', 'βλοσυρῆς', 'ἐπὶ', 'πήχεϊ', 'Ῥείης']
+2025-05-04 11:42:08,874 - Split input into 20 sentences.
+2025-05-04 11:42:08,874 - 0: εἰπέ, θεά, Κρονίδαο διάκτορον αἴθοπος αὐγῆς,
+
+2025-05-04 11:42:08,874 - 1: νυμφιδίῳ σπινθῆρι μογοστόκον ἄσθμα κεραυνοῦ,
+
+2025-05-04 11:42:08,874 - 2: καὶ στεροπὴν Σεμέλης θαλαμηπόλον: εἰπὲ δὲ φύτλην
+
+2025-05-04 11:42:08,874 - 3: Βάκχου δισσοτόκοιο, τὸν ἐκ πυρὸς ὑγρὸν ἀείρας
+
+2025-05-04 11:42:08,874 - 4: Ζεὺς βρέφος ἡμιτέλεστον ἀμαιεύτοιο τεκούσης,
+
+2025-05-04 11:42:08,874 - 5: φειδομέναις παλάμῃσι τομὴν μηροῖο χαράξας,
+
+2025-05-04 11:42:08,874 - 6: ἄρσενι γαστρὶ λόχευσε, πατὴρ καὶ πότνια μήτηρ,
+
+2025-05-04 11:42:08,874 - 7: εὖ εἰδὼς τόκον ἄλλον, ἐπεὶ γονόεντι καρήνῳ,
+
+2025-05-04 11:42:08,874 - 8: ἄσπορον ὄγκον ἄπιστον ἔχων ἐγκύμονι κόρσῃ,
+
+2025-05-04 11:42:08,874 - 9: τεύχεσιν ἀστράπτουσαν ἀνηκόντιζεν Ἀθήνην.
+2025-05-04 11:42:08,874 - 10: ἄξατέ μοι νάρθηκα, τινάξατε κύμβαλα, Μοῦσαι,
+
+2025-05-04 11:42:08,875 - 11: καὶ παλάμῃ δότε θύρσον ἀειδομένου Διονύσου:
+
+2025-05-04 11:42:08,875 - 12: ἀλλὰ χοροῦ ψαύοντα, Φάρῳ παρὰ γείτονι νήσῳ,
+
+2025-05-04 11:42:08,875 - 13: στήσατέ μοι Πρωτῆα πολύτροπον, ὄφρα φανείη
+
+2025-05-04 11:42:08,875 - 14: ποικίλον εἶδος ἔχων, ὅτι ποικίλον ὕμνον ἀράσσω:
+
+2025-05-04 11:42:08,875 - 15: εἰ γὰρ ἐφερπύσσειε δράκων κυκλούμενος ὁλκῷ,
+
+2025-05-04 11:42:08,875 - 16: μέλψω θεῖον ἄεθλον, ὅπως κισσώδεϊ θύρσῳ
+
+2025-05-04 11:42:08,875 - 17: φρικτὰ δρακοντοκόμων ἐδαΐζετο φῦλα Γιγάντων:
+
+2025-05-04 11:42:08,875 - 18: εἰ δὲ λέων φρίξειεν ἐπαυχενίην τρίχα σείων,
+
+2025-05-04 11:42:08,875 - 19: Βάκχον ἀνευάξω βλοσυρῆς ἐπὶ πήχεϊ Ῥείης
+2025-05-04 11:42:15,027 - Considering token: εἰπέ	Orth: εἰπέ	Lemma: λέγω	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,028 - 	'Token text: εἰπέ
+2025-05-04 11:42:15,028 - Word 'εἰπέ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,028 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,028 - 	'Token text: ,
+2025-05-04 11:42:15,028 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,028 - Considering token: θεά	Orth: θεά	Lemma: θεά	POS: NOUN	Morph: Case=Voc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,028 - 	'Token text: θεά
+2025-05-04 11:42:15,028 - 	Appended: 	Token: θεά	Lemma: θεά	POS: NOUN	Morph: Case=Voc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,031 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,031 - 	'Token text: ,
+2025-05-04 11:42:15,031 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,031 - Considering token: Κρονίδαο	Orth: Κρονίδαο	Lemma: Κρονίδης	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,031 - 	'Token text: Κρονίδαο
+2025-05-04 11:42:15,031 - 	Appended: 	Token: Κρονίδαο	Lemma: Κρονίδης	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,031 - Considering token: διάκτορον	Orth: διάκτορον	Lemma: διάκτορος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,031 - 	'Token text: διάκτορον
+2025-05-04 11:42:15,032 - 	Appended: 	Token: διάκτορον	Lemma: διάκτορος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,032 - Considering token: αἴθοπος	Orth: αἴθοπος	Lemma: αἴθοψ	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,032 - 	'Token text: αἴθοπος
+2025-05-04 11:42:15,032 - Word 'αἴθοπος' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,032 - Considering token: αὐγῆς	Orth: αὐγῆς	Lemma: αὐγή	POS: NOUN	Morph: Case=Gen|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,032 - 	'Token text: αὐγῆς
+2025-05-04 11:42:15,032 - Word 'αὐγῆς' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,032 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,032 - 	'Token text: ,
+2025-05-04 11:42:15,032 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,032 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,032 - 	'Token text: 
+
+2025-05-04 11:42:15,032 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,032 - Considering token: νυμφιδίῳ	Orth: νυμφιδίῳ	Lemma: νυμφιδῖος	POS: ADJ	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,032 - 	'Token text: νυμφιδίῳ
+2025-05-04 11:42:15,032 - 	Appended: 	Token: νυμφιδίῳ	Lemma: νυμφιδῖος	POS: ADJ	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,032 - Considering token: σπινθῆρι	Orth: σπινθῆρι	Lemma: σπινθῆρι	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,032 - 	'Token text: σπινθῆρι
+2025-05-04 11:42:15,032 - 	Appended: 	Token: σπινθῆρι	Lemma: σπινθῆρι	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,032 - Considering token: μογοστόκον	Orth: μογοστόκον	Lemma: μογοστόκος	POS: ADJ	Morph: Case=Nom|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,032 - 	'Token text: μογοστόκον
+2025-05-04 11:42:15,033 - Word 'μογοστόκον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: ἄσθμα	Orth: ἄσθμα	Lemma: ἄσθμα	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,033 - 	'Token text: ἄσθμα
+2025-05-04 11:42:15,033 - 	Appended: 	Token: ἄσθμα	Lemma: ἄσθμα	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,033 - Considering token: κεραυνοῦ	Orth: κεραυνοῦ	Lemma: κεραυνός	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,033 - 	'Token text: κεραυνοῦ
+2025-05-04 11:42:15,033 - Word 'κεραυνοῦ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,033 - 	'Token text: ,
+2025-05-04 11:42:15,033 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,033 - 	'Token text: 
+
+2025-05-04 11:42:15,033 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: καὶ	Orth: καὶ	Lemma: καί	POS: CCONJ	Morph: 
+2025-05-04 11:42:15,033 - 	'Token text: καὶ
+2025-05-04 11:42:15,033 - Word 'καὶ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: στεροπὴν	Orth: στεροπὴν	Lemma: στεροπή	POS: NOUN	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,033 - 	'Token text: στεροπὴν
+2025-05-04 11:42:15,033 - Word 'στεροπὴν' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: Σεμέλης	Orth: Σεμέλης	Lemma: Σεμέλη	POS: NOUN	Morph: Case=Gen|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,033 - 	'Token text: Σεμέλης
+2025-05-04 11:42:15,033 - Word 'Σεμέλης' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,033 - Considering token: θαλαμηπόλον	Orth: θαλαμηπόλον	Lemma: θαλαμηπόλος	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,033 - 	'Token text: θαλαμηπόλον
+2025-05-04 11:42:15,033 - 	Appended: 	Token: θαλαμηπόλον	Lemma: θαλαμηπόλος	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,033 - Considering token: :	Orth: :	Lemma: :	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,033 - 	'Token text: :
+2025-05-04 11:42:15,033 - Word ':' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: εἰπὲ	Orth: εἰπὲ	Lemma: εἶπον	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,034 - 	'Token text: εἰπὲ
+2025-05-04 11:42:15,034 - Word 'εἰπὲ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: δὲ	Orth: δὲ	Lemma: δέ	POS: ADV	Morph: 
+2025-05-04 11:42:15,034 - 	'Token text: δὲ
+2025-05-04 11:42:15,034 - Word 'δὲ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: φύτλην	Orth: φύτλην	Lemma: φύτλης	POS: NOUN	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,034 - 	'Token text: φύτλην
+2025-05-04 11:42:15,034 - Word 'φύτλην' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,034 - 	'Token text: 
+
+2025-05-04 11:42:15,034 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: Βάκχου	Orth: Βάκχου	Lemma: Βάκχος	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,034 - 	'Token text: Βάκχου
+2025-05-04 11:42:15,034 - Word 'Βάκχου' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: δισσοτόκοιο	Orth: δισσοτόκοιο	Lemma: δισσοτόκος	POS: ADJ	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,034 - 	'Token text: δισσοτόκοιο
+2025-05-04 11:42:15,034 - Word 'δισσοτόκοιο' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,034 - 	'Token text: ,
+2025-05-04 11:42:15,034 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: τὸν	Orth: τὸν	Lemma: ὁ	POS: DET	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,034 - 	'Token text: τὸν
+2025-05-04 11:42:15,034 - Word 'τὸν' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: ἐκ	Orth: ἐκ	Lemma: ἐκ	POS: ADP	Morph: 
+2025-05-04 11:42:15,034 - 	'Token text: ἐκ
+2025-05-04 11:42:15,034 - Word 'ἐκ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,034 - Considering token: πυρὸς	Orth: πυρὸς	Lemma: πῦρ	POS: NOUN	Morph: Case=Gen|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,034 - 	'Token text: πυρὸς
+2025-05-04 11:42:15,035 - 	Appended: 	Token: πυρὸς	Lemma: πῦρ	POS: NOUN	Morph: Case=Gen|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,035 - Considering token: ὑγρὸν	Orth: ὑγρὸν	Lemma: ὑγρός	POS: ADJ	Morph: Case=Acc|Degree=Pos|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,035 - 	'Token text: ὑγρὸν
+2025-05-04 11:42:15,035 - Word 'ὑγρὸν' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,035 - Considering token: ἀείρας	Orth: ἀείρας	Lemma: ἀείρω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,036 - 	'Token text: ἀείρας
+2025-05-04 11:42:15,036 - 	Appended: 	Token: ἀείρας	Lemma: ἀείρω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,036 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,036 - 	'Token text: 
+
+2025-05-04 11:42:15,036 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,036 - Considering token: Ζεὺς	Orth: Ζεὺς	Lemma: ζεύς	POS: NOUN	Morph: Case=Nom|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,036 - 	'Token text: Ζεὺς
+2025-05-04 11:42:15,036 - Word 'Ζεὺς' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,036 - Considering token: βρέφος	Orth: βρέφος	Lemma: βρέφος	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,036 - 	'Token text: βρέφος
+2025-05-04 11:42:15,037 - Word 'βρέφος' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,037 - Considering token: ἡμιτέλεστον	Orth: ἡμιτέλεστον	Lemma: ἡμιτέλεστος	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,037 - 	'Token text: ἡμιτέλεστον
+2025-05-04 11:42:15,037 - 	Appended: 	Token: ἡμιτέλεστον	Lemma: ἡμιτέλεστος	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,037 - Considering token: ἀμαιεύτοιο	Orth: ἀμαιεύτοιο	Lemma: ἀμαιεύτοιο	POS: ADJ	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,037 - 	'Token text: ἀμαιεύτοιο
+2025-05-04 11:42:15,037 - 	Appended: 	Token: ἀμαιεύτοιο	Lemma: ἀμαιεύτοιο	POS: ADJ	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,037 - Considering token: τεκούσης	Orth: τεκούσης	Lemma: τεκούσης	POS: VERB	Morph: Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,037 - 	'Token text: τεκούσης
+2025-05-04 11:42:15,037 - Word 'τεκούσης' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,037 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,037 - 	'Token text: ,
+2025-05-04 11:42:15,037 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,037 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,037 - 	'Token text: 
+
+2025-05-04 11:42:15,037 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,037 - Considering token: φειδομέναις	Orth: φειδομέναις	Lemma: φειδομέναις	POS: VERB	Morph: Case=Dat|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid
+2025-05-04 11:42:15,038 - 	'Token text: φειδομέναις
+2025-05-04 11:42:15,038 - Word 'φειδομέναις' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,038 - Considering token: παλάμῃσι	Orth: παλάμῃσι	Lemma: παλάμη	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Plur
+2025-05-04 11:42:15,038 - 	'Token text: παλάμῃσι
+2025-05-04 11:42:15,038 - 	Appended: 	Token: παλάμῃσι	Lemma: παλάμη	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Plur
+2025-05-04 11:42:15,038 - Considering token: τομὴν	Orth: τομὴν	Lemma: τομὴ	POS: NOUN	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,038 - 	'Token text: τομὴν
+2025-05-04 11:42:15,038 - Word 'τομὴν' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,038 - Considering token: μηροῖο	Orth: μηροῖο	Lemma: μηρός	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,038 - 	'Token text: μηροῖο
+2025-05-04 11:42:15,038 - Word 'μηροῖο' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,038 - Considering token: χαράξας	Orth: χαράξας	Lemma: χαράσσω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,038 - 	'Token text: χαράξας
+2025-05-04 11:42:15,038 - 	Appended: 	Token: χαράξας	Lemma: χαράσσω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,038 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,038 - 	'Token text: ,
+2025-05-04 11:42:15,038 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,038 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,038 - 	'Token text: 
+
+2025-05-04 11:42:15,038 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,038 - Considering token: ἄρσενι	Orth: ἄρσενι	Lemma: ἄρσενι	POS: ADJ	Morph: Case=Dat|Number=Sing
+2025-05-04 11:42:15,038 - 	'Token text: ἄρσενι
+2025-05-04 11:42:15,039 - 	Appended: 	Token: ἄρσενι	Lemma: ἄρσενι	POS: ADJ	Morph: Case=Dat|Number=Sing
+2025-05-04 11:42:15,039 - Considering token: γαστρὶ	Orth: γαστρὶ	Lemma: γαστήρ	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,039 - 	'Token text: γαστρὶ
+2025-05-04 11:42:15,039 - 	Appended: 	Token: γαστρὶ	Lemma: γαστήρ	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,039 - Considering token: λόχευσε	Orth: λόχευσε	Lemma: λόχευσε	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,039 - 	'Token text: λόχευσε
+2025-05-04 11:42:15,039 - Word 'λόχευσε' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,039 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,039 - 	'Token text: ,
+2025-05-04 11:42:15,039 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,039 - Considering token: πατὴρ	Orth: πατὴρ	Lemma: πατήρ	POS: NOUN	Morph: Case=Nom|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,039 - 	'Token text: πατὴρ
+2025-05-04 11:42:15,039 - 	Appended: 	Token: πατὴρ	Lemma: πατήρ	POS: NOUN	Morph: Case=Nom|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,039 - Considering token: καὶ	Orth: καὶ	Lemma: καί	POS: CCONJ	Morph: 
+2025-05-04 11:42:15,039 - 	'Token text: καὶ
+2025-05-04 11:42:15,039 - Word 'καὶ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,039 - Considering token: πότνια	Orth: πότνια	Lemma: πότνια	POS: NOUN	Morph: Case=Nom|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,039 - 	'Token text: πότνια
+2025-05-04 11:42:15,039 - 	Appended: 	Token: πότνια	Lemma: πότνια	POS: NOUN	Morph: Case=Nom|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,042 - Considering token: μήτηρ	Orth: μήτηρ	Lemma: μήτηρ	POS: NOUN	Morph: Case=Nom|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,042 - 	'Token text: μήτηρ
+2025-05-04 11:42:15,042 - Word 'μήτηρ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,042 - 	'Token text: ,
+2025-05-04 11:42:15,042 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,042 - 	'Token text: 
+
+2025-05-04 11:42:15,042 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: εὖ	Orth: εὖ	Lemma: εὖ	POS: ADV	Morph: 
+2025-05-04 11:42:15,042 - 	'Token text: εὖ
+2025-05-04 11:42:15,042 - Word 'εὖ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: εἰδὼς	Orth: εἰδὼς	Lemma: οἶδα	POS: VERB	Morph: Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,042 - 	'Token text: εἰδὼς
+2025-05-04 11:42:15,042 - Word 'εἰδὼς' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: τόκον	Orth: τόκον	Lemma: τόκος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,042 - 	'Token text: τόκον
+2025-05-04 11:42:15,042 - Word 'τόκον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: ἄλλον	Orth: ἄλλον	Lemma: ἄλλος	POS: ADJ	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,042 - 	'Token text: ἄλλον
+2025-05-04 11:42:15,042 - Word 'ἄλλον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,042 - 	'Token text: ,
+2025-05-04 11:42:15,042 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: ἐπεὶ	Orth: ἐπεὶ	Lemma: ἐπεί	POS: ADV	Morph: 
+2025-05-04 11:42:15,042 - 	'Token text: ἐπεὶ
+2025-05-04 11:42:15,042 - Word 'ἐπεὶ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,042 - Considering token: γονόεντι	Orth: γονόεντι	Lemma: γονόεις	POS: ADJ	Morph: Case=Dat|Number=Sing
+2025-05-04 11:42:15,042 - 	'Token text: γονόεντι
+2025-05-04 11:42:15,042 - 	Appended: 	Token: γονόεντι	Lemma: γονόεις	POS: ADJ	Morph: Case=Dat|Number=Sing
+2025-05-04 11:42:15,043 - Considering token: καρήνῳ	Orth: καρήνῳ	Lemma: καρήνον	POS: NOUN	Morph: Case=Dat|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,043 - 	'Token text: καρήνῳ
+2025-05-04 11:42:15,043 - 	Appended: 	Token: καρήνῳ	Lemma: καρήνον	POS: NOUN	Morph: Case=Dat|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,043 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,043 - 	'Token text: ,
+2025-05-04 11:42:15,043 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,043 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,043 - 	'Token text: 
+
+2025-05-04 11:42:15,043 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,043 - Considering token: ἄσπορον	Orth: ἄσπορον	Lemma: ἄσπορος	POS: ADJ	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,043 - 	'Token text: ἄσπορον
+2025-05-04 11:42:15,043 - Word 'ἄσπορον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,043 - Considering token: ὄγκον	Orth: ὄγκον	Lemma: ὄγκος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,043 - 	'Token text: ὄγκον
+2025-05-04 11:42:15,043 - Word 'ὄγκον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,043 - Considering token: ἄπιστον	Orth: ἄπιστον	Lemma: ἄπιστος	POS: ADJ	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,043 - 	'Token text: ἄπιστον
+2025-05-04 11:42:15,043 - 	Appended: 	Token: ἄπιστον	Lemma: ἄπιστος	POS: ADJ	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,043 - Considering token: ἔχων	Orth: ἔχων	Lemma: ἔχω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,043 - 	'Token text: ἔχων
+2025-05-04 11:42:15,043 - Word 'ἔχων' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,043 - Considering token: ἐγκύμονι	Orth: ἐγκύμονι	Lemma: ἐγκύμων	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,043 - 	'Token text: ἐγκύμονι
+2025-05-04 11:42:15,043 - 	Appended: 	Token: ἐγκύμονι	Lemma: ἐγκύμων	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,043 - Considering token: κόρσῃ	Orth: κόρσῃ	Lemma: κόρση	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,043 - 	'Token text: κόρσῃ
+2025-05-04 11:42:15,044 - Word 'κόρσῃ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,044 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,044 - 	'Token text: ,
+2025-05-04 11:42:15,044 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,044 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,044 - 	'Token text: 
+
+2025-05-04 11:42:15,044 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,044 - Considering token: τεύχεσιν	Orth: τεύχεσιν	Lemma: τεῦχος	POS: NOUN	Morph: Case=Dat|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,044 - 	'Token text: τεύχεσιν
+2025-05-04 11:42:15,044 - 	Appended: 	Token: τεύχεσιν	Lemma: τεῦχος	POS: NOUN	Morph: Case=Dat|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,044 - Considering token: ἀστράπτουσαν	Orth: ἀστράπτουσαν	Lemma: ἀστράπτω	POS: VERB	Morph: Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,044 - 	'Token text: ἀστράπτουσαν
+2025-05-04 11:42:15,044 - 	Appended: 	Token: ἀστράπτουσαν	Lemma: ἀστράπτω	POS: VERB	Morph: Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,044 - Considering token: ἀνηκόντιζεν	Orth: ἀνηκόντιζεν	Lemma: ἀνηκόντιζεν	POS: VERB	Morph: Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,044 - 	'Token text: ἀνηκόντιζεν
+2025-05-04 11:42:15,044 - 	Appended: 	Token: ἀνηκόντιζεν	Lemma: ἀνηκόντιζεν	POS: VERB	Morph: Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,044 - Considering token: Ἀθήνην	Orth: Ἀθήνην	Lemma: ἀθήνη	POS: NOUN	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,044 - 	'Token text: Ἀθήνην
+2025-05-04 11:42:15,044 - Word 'Ἀθήνην' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,044 - Considering token: .	Orth: .	Lemma: .	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,044 - 	'Token text: .
+2025-05-04 11:42:15,044 - Word '.' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,044 - Considering token: ἄξατέ	Orth: ἄξατέ	Lemma: ἄξατέ	POS: VERB	Morph: Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,044 - 	'Token text: ἄξατέ
+2025-05-04 11:42:15,045 - 	Appended: 	Token: ἄξατέ	Lemma: ἄξατέ	POS: VERB	Morph: Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,045 - Considering token: μοι	Orth: μοι	Lemma: ἐγώ	POS: PRON	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,045 - 	'Token text: μοι
+2025-05-04 11:42:15,045 - Word 'μοι' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,045 - Considering token: νάρθηκα	Orth: νάρθηκα	Lemma: νάρθηκα	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,045 - 	'Token text: νάρθηκα
+2025-05-04 11:42:15,045 - 	Appended: 	Token: νάρθηκα	Lemma: νάρθηκα	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,045 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,045 - 	'Token text: ,
+2025-05-04 11:42:15,045 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,045 - Considering token: τινάξατε	Orth: τινάξατε	Lemma: τινάσσω	POS: VERB	Morph: Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,045 - 	'Token text: τινάξατε
+2025-05-04 11:42:15,045 - 	Appended: 	Token: τινάξατε	Lemma: τινάσσω	POS: VERB	Morph: Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,045 - Considering token: κύμβαλα	Orth: κύμβαλα	Lemma: κύμβαλον	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,045 - 	'Token text: κύμβαλα
+2025-05-04 11:42:15,045 - 	Appended: 	Token: κύμβαλα	Lemma: κύμβαλον	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,045 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,045 - 	'Token text: ,
+2025-05-04 11:42:15,045 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,045 - Considering token: Μοῦσαι	Orth: Μοῦσαι	Lemma: μοῦσα	POS: NOUN	Morph: Case=Voc|Gender=Fem|Number=Plur
+2025-05-04 11:42:15,045 - 	'Token text: Μοῦσαι
+2025-05-04 11:42:15,045 - Word 'Μοῦσαι' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,045 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,045 - 	'Token text: ,
+2025-05-04 11:42:15,045 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,045 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,045 - 	'Token text: 
+
+2025-05-04 11:42:15,045 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,045 - Considering token: καὶ	Orth: καὶ	Lemma: καί	POS: CCONJ	Morph: 
+2025-05-04 11:42:15,045 - 	'Token text: καὶ
+2025-05-04 11:42:15,045 - Word 'καὶ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,046 - Considering token: παλάμῃ	Orth: παλάμῃ	Lemma: παλάμῃ	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,046 - 	'Token text: παλάμῃ
+2025-05-04 11:42:15,046 - 	Appended: 	Token: παλάμῃ	Lemma: παλάμῃ	POS: NOUN	Morph: Case=Dat|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,046 - Considering token: δότε	Orth: δότε	Lemma: δίδωμι	POS: VERB	Morph: Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,046 - 	'Token text: δότε
+2025-05-04 11:42:15,046 - Word 'δότε' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,046 - Considering token: θύρσον	Orth: θύρσον	Lemma: θύρσος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,046 - 	'Token text: θύρσον
+2025-05-04 11:42:15,046 - Word 'θύρσον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,046 - Considering token: ἀειδομένου	Orth: ἀειδομένου	Lemma: ἀείδω	POS: VERB	Morph: Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid
+2025-05-04 11:42:15,046 - 	'Token text: ἀειδομένου
+2025-05-04 11:42:15,046 - 	Appended: 	Token: ἀειδομένου	Lemma: ἀείδω	POS: VERB	Morph: Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid
+2025-05-04 11:42:15,046 - Considering token: Διονύσου	Orth: Διονύσου	Lemma: διόνυσος	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,046 - 	'Token text: Διονύσου
+2025-05-04 11:42:15,046 - 	Appended: 	Token: Διονύσου	Lemma: διόνυσος	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,046 - Considering token: :	Orth: :	Lemma: :	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,046 - 	'Token text: :
+2025-05-04 11:42:15,046 - Word ':' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,046 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,046 - 	'Token text: 
+
+2025-05-04 11:42:15,046 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,046 - Considering token: ἀλλὰ	Orth: ἀλλὰ	Lemma: ἀλλά	POS: CCONJ	Morph: 
+2025-05-04 11:42:15,046 - 	'Token text: ἀλλὰ
+2025-05-04 11:42:15,046 - 	Appended: 	Token: ἀλλὰ	Lemma: ἀλλά	POS: CCONJ	Morph: 
+2025-05-04 11:42:15,046 - Considering token: χοροῦ	Orth: χοροῦ	Lemma: χοροῦ	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,046 - 	'Token text: χοροῦ
+2025-05-04 11:42:15,046 - Word 'χοροῦ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,047 - Considering token: ψαύοντα	Orth: ψαύοντα	Lemma: ψαύω	POS: VERB	Morph: Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,047 - 	'Token text: ψαύοντα
+2025-05-04 11:42:15,047 - 	Appended: 	Token: ψαύοντα	Lemma: ψαύω	POS: VERB	Morph: Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,047 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,047 - 	'Token text: ,
+2025-05-04 11:42:15,047 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,047 - Considering token: Φάρῳ	Orth: Φάρῳ	Lemma: Φάρῳ	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,047 - 	'Token text: Φάρῳ
+2025-05-04 11:42:15,047 - 	Appended: 	Token: Φάρῳ	Lemma: Φάρῳ	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,047 - Considering token: παρὰ	Orth: παρὰ	Lemma: παρά	POS: ADP	Morph: 
+2025-05-04 11:42:15,047 - 	'Token text: παρὰ
+2025-05-04 11:42:15,047 - 	Appended: 	Token: παρὰ	Lemma: παρά	POS: ADP	Morph: 
+2025-05-04 11:42:15,047 - Considering token: γείτονι	Orth: γείτονι	Lemma: γείτων	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,047 - 	'Token text: γείτονι
+2025-05-04 11:42:15,047 - 	Appended: 	Token: γείτονι	Lemma: γείτων	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,047 - Considering token: νήσῳ	Orth: νήσῳ	Lemma: νῆσος	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,047 - 	'Token text: νήσῳ
+2025-05-04 11:42:15,047 - Word 'νήσῳ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,047 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,047 - 	'Token text: ,
+2025-05-04 11:42:15,047 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,047 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,047 - 	'Token text: 
+
+2025-05-04 11:42:15,047 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,047 - Considering token: στήσατέ	Orth: στήσατέ	Lemma: στήσατέ	POS: VERB	Morph: Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,047 - 	'Token text: στήσατέ
+2025-05-04 11:42:15,047 - 	Appended: 	Token: στήσατέ	Lemma: στήσατέ	POS: VERB	Morph: Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,047 - Considering token: μοι	Orth: μοι	Lemma: ἐγώ	POS: PRON	Morph: Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs
+2025-05-04 11:42:15,047 - 	'Token text: μοι
+2025-05-04 11:42:15,047 - Word 'μοι' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,048 - Considering token: Πρωτῆα	Orth: Πρωτῆα	Lemma: Πρωτῆα	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,048 - 	'Token text: Πρωτῆα
+2025-05-04 11:42:15,048 - 	Appended: 	Token: Πρωτῆα	Lemma: Πρωτῆα	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,048 - Considering token: πολύτροπον	Orth: πολύτροπον	Lemma: πολύτροπος	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,048 - 	'Token text: πολύτροπον
+2025-05-04 11:42:15,048 - Word 'πολύτροπον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,048 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,048 - 	'Token text: ,
+2025-05-04 11:42:15,048 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,048 - Considering token: ὄφρα	Orth: ὄφρα	Lemma: ὄφρα	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,048 - 	'Token text: ὄφρα
+2025-05-04 11:42:15,048 - 	Appended: 	Token: ὄφρα	Lemma: ὄφρα	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,048 - Considering token: φανείη	Orth: φανείη	Lemma: φανείη	POS: VERB	Morph: Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass
+2025-05-04 11:42:15,048 - 	'Token text: φανείη
+2025-05-04 11:42:15,048 - 	Appended: 	Token: φανείη	Lemma: φανείη	POS: VERB	Morph: Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass
+2025-05-04 11:42:15,048 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,048 - 	'Token text: 
+
+2025-05-04 11:42:15,048 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,048 - Considering token: ποικίλον	Orth: ποικίλον	Lemma: ποικίλος	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,048 - 	'Token text: ποικίλον
+2025-05-04 11:42:15,048 - 	Appended: 	Token: ποικίλον	Lemma: ποικίλος	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,048 - Considering token: εἶδος	Orth: εἶδος	Lemma: εἶδος	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,048 - 	'Token text: εἶδος
+2025-05-04 11:42:15,048 - Word 'εἶδος' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,048 - Considering token: ἔχων	Orth: ἔχων	Lemma: ἔχω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,048 - 	'Token text: ἔχων
+2025-05-04 11:42:15,048 - Word 'ἔχων' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,048 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,049 - 	'Token text: ,
+2025-05-04 11:42:15,049 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,049 - Considering token: ὅτι	Orth: ὅτι	Lemma: ὅτι	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,049 - 	'Token text: ὅτι
+2025-05-04 11:42:15,049 - 	Appended: 	Token: ὅτι	Lemma: ὅτι	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,049 - Considering token: ποικίλον	Orth: ποικίλον	Lemma: ποικίλος	POS: ADJ	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,049 - 	'Token text: ποικίλον
+2025-05-04 11:42:15,049 - 	Appended: 	Token: ποικίλον	Lemma: ποικίλος	POS: ADJ	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,049 - Considering token: ὕμνον	Orth: ὕμνον	Lemma: ὕμνος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,049 - 	'Token text: ὕμνον
+2025-05-04 11:42:15,049 - Word 'ὕμνον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,049 - Considering token: ἀράσσω	Orth: ἀράσσω	Lemma: ἀράσσω	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,049 - 	'Token text: ἀράσσω
+2025-05-04 11:42:15,049 - 	Appended: 	Token: ἀράσσω	Lemma: ἀράσσω	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,049 - Considering token: :	Orth: :	Lemma: :	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,049 - 	'Token text: :
+2025-05-04 11:42:15,049 - Word ':' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,049 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,049 - 	'Token text: 
+
+2025-05-04 11:42:15,049 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,049 - Considering token: εἰ	Orth: εἰ	Lemma: εἰ	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,049 - 	'Token text: εἰ
+2025-05-04 11:42:15,049 - Word 'εἰ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,049 - Considering token: γὰρ	Orth: γὰρ	Lemma: γάρ	POS: PART	Morph: 
+2025-05-04 11:42:15,049 - 	'Token text: γὰρ
+2025-05-04 11:42:15,049 - 	Appended: 	Token: γὰρ	Lemma: γάρ	POS: PART	Morph: 
+2025-05-04 11:42:15,049 - Considering token: ἐφερπύσσειε	Orth: ἐφερπύσσειε	Lemma: ἐφερπύζω	POS: VERB	Morph: Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,049 - 	'Token text: ἐφερπύσσειε
+2025-05-04 11:42:15,049 - Word 'ἐφερπύσσειε' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,049 - Considering token: δράκων	Orth: δράκων	Lemma: δράκων	POS: NOUN	Morph: Case=Nom|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,049 - 	'Token text: δράκων
+2025-05-04 11:42:15,050 - 	Appended: 	Token: δράκων	Lemma: δράκων	POS: NOUN	Morph: Case=Nom|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,050 - Considering token: κυκλούμενος	Orth: κυκλούμενος	Lemma: κυκλέω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid
+2025-05-04 11:42:15,050 - 	'Token text: κυκλούμενος
+2025-05-04 11:42:15,050 - Word 'κυκλούμενος' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: ὁλκῷ	Orth: ὁλκῷ	Lemma: ὁλκῷ	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,050 - 	'Token text: ὁλκῷ
+2025-05-04 11:42:15,050 - Word 'ὁλκῷ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,050 - 	'Token text: ,
+2025-05-04 11:42:15,050 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,050 - 	'Token text: 
+
+2025-05-04 11:42:15,050 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: μέλψω	Orth: μέλψω	Lemma: μέλπω	POS: VERB	Morph: Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,050 - 	'Token text: μέλψω
+2025-05-04 11:42:15,050 - Word 'μέλψω' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: θεῖον	Orth: θεῖον	Lemma: θεῖος	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,050 - 	'Token text: θεῖον
+2025-05-04 11:42:15,050 - Word 'θεῖον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: ἄεθλον	Orth: ἄεθλον	Lemma: ἆθλον	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,050 - 	'Token text: ἄεθλον
+2025-05-04 11:42:15,050 - 	Appended: 	Token: ἄεθλον	Lemma: ἆθλον	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Sing
+2025-05-04 11:42:15,050 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,050 - 	'Token text: ,
+2025-05-04 11:42:15,050 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: ὅπως	Orth: ὅπως	Lemma: ὅπως	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,050 - 	'Token text: ὅπως
+2025-05-04 11:42:15,050 - Word 'ὅπως' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,050 - Considering token: κισσώδεϊ	Orth: κισσώδεϊ	Lemma: κισσώδης	POS: ADJ	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,050 - 	'Token text: κισσώδεϊ
+2025-05-04 11:42:15,051 - 	Appended: 	Token: κισσώδεϊ	Lemma: κισσώδης	POS: ADJ	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,051 - Considering token: θύρσῳ	Orth: θύρσῳ	Lemma: θύρσῳ	POS: VERB	Morph: Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,051 - 	'Token text: θύρσῳ
+2025-05-04 11:42:15,051 - Word 'θύρσῳ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,051 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,051 - 	'Token text: 
+
+2025-05-04 11:42:15,051 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,051 - Considering token: φρικτὰ	Orth: φρικτὰ	Lemma: φρικτός	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,051 - 	'Token text: φρικτὰ
+2025-05-04 11:42:15,051 - 	Appended: 	Token: φρικτὰ	Lemma: φρικτός	POS: ADJ	Morph: Case=Acc|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,051 - Considering token: δρακοντοκόμων	Orth: δρακοντοκόμων	Lemma: δρακοντοκόμος	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Plur
+2025-05-04 11:42:15,051 - 	'Token text: δρακοντοκόμων
+2025-05-04 11:42:15,051 - 	Appended: 	Token: δρακοντοκόμων	Lemma: δρακοντοκόμος	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Plur
+2025-05-04 11:42:15,051 - Considering token: ἐδαΐζετο	Orth: ἐδαΐζετο	Lemma: δαίζω	POS: VERB	Morph: Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid
+2025-05-04 11:42:15,051 - 	'Token text: ἐδαΐζετο
+2025-05-04 11:42:15,051 - 	Appended: 	Token: ἐδαΐζετο	Lemma: δαίζω	POS: VERB	Morph: Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid
+2025-05-04 11:42:15,051 - Considering token: φῦλα	Orth: φῦλα	Lemma: φῦλον	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,051 - 	'Token text: φῦλα
+2025-05-04 11:42:15,051 - 	Appended: 	Token: φῦλα	Lemma: φῦλον	POS: NOUN	Morph: Case=Acc|Gender=Neut|Number=Plur
+2025-05-04 11:42:15,051 - Considering token: Γιγάντων	Orth: Γιγάντων	Lemma: γίγας	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Plur
+2025-05-04 11:42:15,051 - 	'Token text: Γιγάντων
+2025-05-04 11:42:15,052 - 	Appended: 	Token: Γιγάντων	Lemma: γίγας	POS: NOUN	Morph: Case=Gen|Gender=Masc|Number=Plur
+2025-05-04 11:42:15,052 - Considering token: :	Orth: :	Lemma: :	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,052 - 	'Token text: :
+2025-05-04 11:42:15,052 - Word ':' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,052 - 	'Token text: 
+
+2025-05-04 11:42:15,052 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: εἰ	Orth: εἰ	Lemma: εἰ	POS: SCONJ	Morph: 
+2025-05-04 11:42:15,052 - 	'Token text: εἰ
+2025-05-04 11:42:15,052 - Word 'εἰ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: δὲ	Orth: δὲ	Lemma: δέ	POS: ADV	Morph: 
+2025-05-04 11:42:15,052 - 	'Token text: δὲ
+2025-05-04 11:42:15,052 - Word 'δὲ' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: λέων	Orth: λέων	Lemma: λέων	POS: NOUN	Morph: Case=Nom|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,052 - 	'Token text: λέων
+2025-05-04 11:42:15,052 - Word 'λέων' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: φρίξειεν	Orth: φρίξειεν	Lemma: φρίδω	POS: VERB	Morph: Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,052 - 	'Token text: φρίξειεν
+2025-05-04 11:42:15,052 - Word 'φρίξειεν' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: ἐπαυχενίην	Orth: ἐπαυχενίην	Lemma: ἐπαυχενῖος	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,052 - 	'Token text: ἐπαυχενίην
+2025-05-04 11:42:15,052 - 	Appended: 	Token: ἐπαυχενίην	Lemma: ἐπαυχενῖος	POS: ADJ	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,052 - Considering token: τρίχα	Orth: τρίχα	Lemma: θρίξ	POS: NOUN	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,052 - 	'Token text: τρίχα
+2025-05-04 11:42:15,052 - 	Appended: 	Token: τρίχα	Lemma: θρίξ	POS: NOUN	Morph: Case=Acc|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,052 - Considering token: σείων	Orth: σείων	Lemma: σείω	POS: VERB	Morph: Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act
+2025-05-04 11:42:15,052 - 	'Token text: σείων
+2025-05-04 11:42:15,052 - Word 'σείων' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,052 - Considering token: ,	Orth: ,	Lemma: ,	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,052 - 	'Token text: ,
+2025-05-04 11:42:15,053 - Word ',' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,053 - Considering token: 
+	Orth: 
+	Lemma: 
+	POS: PUNCT	Morph: 
+2025-05-04 11:42:15,053 - 	'Token text: 
+
+2025-05-04 11:42:15,053 - Word '
+' not in diagnostic word list. odyCy messed up here. Skipping with 'continue'.
+2025-05-04 11:42:15,053 - Considering token: Βάκχον	Orth: Βάκχον	Lemma: Βάκχος	POS: NOUN	Morph: Case=Acc|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,053 - 	'Token text: Βάκχον
+2025-05-04 11:42:15,053 - Word 'Βάκχον' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,053 - Considering token: ἀνευάξω	Orth: ἀνευάξω	Lemma: ἀνευάγω	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,053 - 	'Token text: ἀνευάξω
+2025-05-04 11:42:15,053 - 	Appended: 	Token: ἀνευάξω	Lemma: ἀνευάγω	POS: VERB	Morph: Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act
+2025-05-04 11:42:15,053 - Considering token: βλοσυρῆς	Orth: βλοσυρῆς	Lemma: βλοσυρῆ	POS: NOUN	Morph: Case=Gen|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,053 - 	'Token text: βλοσυρῆς
+2025-05-04 11:42:15,053 - 	Appended: 	Token: βλοσυρῆς	Lemma: βλοσυρῆ	POS: NOUN	Morph: Case=Gen|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,053 - Considering token: ἐπὶ	Orth: ἐπὶ	Lemma: ἐπί	POS: ADP	Morph: 
+2025-05-04 11:42:15,053 - 	'Token text: ἐπὶ
+2025-05-04 11:42:15,053 - 	Appended: 	Token: ἐπὶ	Lemma: ἐπί	POS: ADP	Morph: 
+2025-05-04 11:42:15,053 - Considering token: πήχεϊ	Orth: πήχεϊ	Lemma: πήχος	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,053 - 	'Token text: πήχεϊ
+2025-05-04 11:42:15,053 - 	Appended: 	Token: πήχεϊ	Lemma: πήχος	POS: NOUN	Morph: Case=Dat|Gender=Masc|Number=Sing
+2025-05-04 11:42:15,053 - Considering token: Ῥείης	Orth: Ῥείης	Lemma: Ῥεία	POS: NOUN	Morph: Case=Gen|Gender=Fem|Number=Sing
+2025-05-04 11:42:15,053 - 	'Token text: Ῥείης
+2025-05-04 11:42:15,053 - Word 'Ῥείης' has no dichrona. Skipping with 'continue'.
+2025-05-04 11:42:15,053 - Len of token_lemma_pos_morph: 59
+2025-05-04 11:42:15,053 - First elements of token_lemma_pos_morph: ['θεά', 'θεά', 'NOUN', Case=Voc|Gender=Fem|Number=Sing], ['Κρονίδαο', 'Κρονίδης', 'NOUN', Case=Gen|Gender=Masc|Number=Sing]...
+2025-05-04 11:42:15,054 - odyCy fail count: 45
+2025-05-04 11:42:15,054 - Sending to macronization_modules: θεά (θεά, NOUN, Case=Voc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,054 - 🔄 Macronizing: θεά (θεά, NOUN, Case=Voc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,054 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,054 - 	✅ Hypotactic helped: θεά => θεά_, with 0 left
+2025-05-04 11:42:15,055 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,055 - 	❌ LSJ did not help
+2025-05-04 11:42:15,056 - Sending to macronization_modules: Κρονίδαο (Κρονίδης, NOUN, Case=Gen|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,056 - 🔄 Macronizing: Κρονίδαο (Κρονίδης, NOUN, Case=Gen|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,056 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,057 - 	✅ Hypotactic helped: Κρονίδαο => Κρονί^δα_ο, with 0 left
+2025-05-04 11:42:15,058 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,058 - 	❌ LSJ did not help
+2025-05-04 11:42:15,058 - Sending to macronization_modules: διάκτορον (διάκτορος, NOUN, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,058 - 🔄 Macronizing: διάκτορον (διάκτορος, NOUN, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,058 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,059 - 	✅ Hypotactic helped: διάκτορον => δι^άκτορον, with 0 left
+2025-05-04 11:42:15,060 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,060 - 	❌ LSJ did not help
+2025-05-04 11:42:15,060 - Sending to macronization_modules: νυμφιδίῳ (νυμφιδῖος, ADJ, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,060 - 🔄 Macronizing: νυμφιδίῳ (νυμφιδῖος, ADJ, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,061 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,061 - No new version, returning old version
+2025-05-04 11:42:15,061 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,062 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,062 - 	❌ LSJ did not help
+2025-05-04 11:42:15,063 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,064 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,064 - 	 Prefix token for νυμφιδίῳ: νυμφιδίῳ
+2025-05-04 11:42:15,064 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,064 - 	 Testing for 2D wrong-case-ending recursion: νυμφιδίῳ (νυμφιδῖος)
+2025-05-04 11:42:15,064 - 🔄 Macronizing (different-ending): νυμφιδίος (νυμφιδῖος, ADJ, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,064 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,064 - No new version, returning old version
+2025-05-04 11:42:15,065 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,066 - 	✅ Accent rules helped: νυμφιδίος => νυμφιδί^ος, with 1 left
+2025-05-04 11:42:15,066 - 	❌ LSJ did not help
+2025-05-04 11:42:15,066 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,067 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,067 - 	 Prefix token for νυμφιδίος: νυμφιδίος
+2025-05-04 11:42:15,067 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,068 - 	❌ Wrong-case-ending did not help
+2025-05-04 11:42:15,068 - Sending to macronization_modules: σπινθῆρι (σπινθῆρι, NOUN, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,068 - 🔄 Macronizing: σπινθῆρι (σπινθῆρι, NOUN, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,068 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,069 - No new version, returning old version
+2025-05-04 11:42:15,069 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,069 - 	✅ Accent rules helped: σπινθῆρι => σπινθῆρι^, with 0 left
+2025-05-04 11:42:15,070 - 	❌ LSJ did not help
+2025-05-04 11:42:15,070 - Sending to macronization_modules: ἄσθμα (ἄσθμα, NOUN, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,070 - 🔄 Macronizing: ἄσθμα (ἄσθμα, NOUN, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,070 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,070 - 	✅ Hypotactic helped: ἄσθμα => ἄσθμα_, with 0 left
+2025-05-04 11:42:15,071 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,071 - 	❌ LSJ did not help
+2025-05-04 11:42:15,071 - Sending to macronization_modules: θαλαμηπόλον (θαλαμηπόλος, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,071 - 🔄 Macronizing: θαλαμηπόλον (θαλαμηπόλος, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,071 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,072 - No new version, returning old version
+2025-05-04 11:42:15,072 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,073 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,073 - 	❌ LSJ did not help
+2025-05-04 11:42:15,074 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,075 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,075 - 	 Prefix token for θαλαμηπόλον: θαλαμηπόλον
+2025-05-04 11:42:15,075 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,075 - 	 Testing for 2D wrong-case-ending recursion: θαλαμηπόλον (θαλαμηπόλος)
+2025-05-04 11:42:15,075 - 🔄 Macronizing (different-ending): θαλαμηπόλος (θαλαμηπόλος, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,076 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,076 - 	✅ Hypotactic helped: θαλαμηπόλος => θα^λα^μηπόλος, with 0 left
+2025-05-04 11:42:15,077 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,077 - 	❌ LSJ did not help
+2025-05-04 11:42:15,077 - 	❌ Wrong-case-ending did not help
+2025-05-04 11:42:15,078 - Sending to macronization_modules: πυρὸς (πῦρ, NOUN, Case=Gen|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,078 - 🔄 Macronizing: πυρὸς (πῦρ, NOUN, Case=Gen|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,078 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,078 - 	✅ Hypotactic helped: πυρὸς => πυ^ρὸς, with 0 left
+2025-05-04 11:42:15,079 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,079 - 	❌ LSJ did not help
+2025-05-04 11:42:15,079 - Sending to macronization_modules: ἀείρας (ἀείρω, VERB, Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,079 - 🔄 Macronizing: ἀείρας (ἀείρω, VERB, Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,079 - 	✅ Wiktionary: ἀείρας => ἀείρα_ς, with 1 left
+2025-05-04 11:42:15,080 - 	✅ Hypotactic helped: ἀείρα_ς => ἀ^είρα_ς, with 0 left
+2025-05-04 11:42:15,080 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,080 - 	❌ LSJ did not help
+2025-05-04 11:42:15,080 - Sending to macronization_modules: ἡμιτέλεστον (ἡμιτέλεστος, ADJ, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,080 - 🔄 Macronizing: ἡμιτέλεστον (ἡμιτέλεστος, ADJ, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,081 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,081 - 	✅ Hypotactic helped: ἡμιτέλεστον => ἡμι^τέλεστον, with 0 left
+2025-05-04 11:42:15,082 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,082 - 	❌ LSJ did not help
+2025-05-04 11:42:15,083 - Sending to macronization_modules: ἀμαιεύτοιο (ἀμαιεύτοιο, ADJ, Case=Gen|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,083 - 🔄 Macronizing: ἀμαιεύτοιο (ἀμαιεύτοιο, ADJ, Case=Gen|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,083 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,084 - 	✅ Hypotactic helped: ἀμαιεύτοιο => ἀ^μαιεύτοιο, with 0 left
+2025-05-04 11:42:15,084 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,084 - 	❌ LSJ did not help
+2025-05-04 11:42:15,085 - Sending to macronization_modules: παλάμῃσι (παλάμη, NOUN, Case=Dat|Gender=Fem|Number=Plur)
+2025-05-04 11:42:15,085 - 🔄 Macronizing: παλάμῃσι (παλάμη, NOUN, Case=Dat|Gender=Fem|Number=Plur)
+2025-05-04 11:42:15,085 - 	✅ Wiktionary: παλάμῃσι => πα^λά^μῃσι^, with 0 left
+2025-05-04 11:42:15,085 - Sending to macronization_modules: χαράξας (χαράσσω, VERB, Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,085 - 🔄 Macronizing: χαράξας (χαράσσω, VERB, Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,086 - 	✅ Wiktionary: χαράξας => χα^ρά^ξα_ς, with 0 left
+2025-05-04 11:42:15,086 - Sending to macronization_modules: ἄρσενι (ἄρσενι, ADJ, Case=Dat|Number=Sing)
+2025-05-04 11:42:15,086 - 🔄 Macronizing: ἄρσενι (ἄρσενι, ADJ, Case=Dat|Number=Sing)
+2025-05-04 11:42:15,086 - 	✅ Wiktionary: ἄρσενι => ἄ^ρσενι^, with 0 left
+2025-05-04 11:42:15,086 - Sending to macronization_modules: γαστρὶ (γαστήρ, NOUN, Case=Dat|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,086 - 🔄 Macronizing: γαστρὶ (γαστήρ, NOUN, Case=Dat|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,087 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,087 - 	✅ Hypotactic helped: γαστρὶ => γαστρὶ^, with 0 left
+2025-05-04 11:42:15,088 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,088 - 	❌ LSJ did not help
+2025-05-04 11:42:15,088 - Sending to macronization_modules: πατὴρ (πατήρ, NOUN, Case=Nom|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,088 - 🔄 Macronizing: πατὴρ (πατήρ, NOUN, Case=Nom|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,088 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,088 - 	✅ Hypotactic helped: πατὴρ => πα^τὴρ, with 0 left
+2025-05-04 11:42:15,089 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,089 - 	❌ LSJ did not help
+2025-05-04 11:42:15,089 - Sending to macronization_modules: πότνια (πότνια, NOUN, Case=Nom|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,089 - 🔄 Macronizing: πότνια (πότνια, NOUN, Case=Nom|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,090 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,090 - 	✅ Hypotactic helped: πότνια => πότνι^α, with 1 left
+2025-05-04 11:42:15,091 - 	✅ Accent rules helped: πότνι^α => πότνι^α^, with 0 left
+2025-05-04 11:42:15,091 - 	❌ LSJ did not help
+2025-05-04 11:42:15,091 - Sending to macronization_modules: γονόεντι (γονόεις, ADJ, Case=Dat|Number=Sing)
+2025-05-04 11:42:15,091 - 🔄 Macronizing: γονόεντι (γονόεις, ADJ, Case=Dat|Number=Sing)
+2025-05-04 11:42:15,091 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,092 - No new version, returning old version
+2025-05-04 11:42:15,092 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,092 - 	✅ Accent rules helped: γονόεντι => γονόεντι^, with 0 left
+2025-05-04 11:42:15,093 - 	❌ LSJ did not help
+2025-05-04 11:42:15,093 - Sending to macronization_modules: καρήνῳ (καρήνον, NOUN, Case=Dat|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,093 - 🔄 Macronizing: καρήνῳ (καρήνον, NOUN, Case=Dat|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,093 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,093 - 	✅ Hypotactic helped: καρήνῳ => κα^ρήνῳ, with 0 left
+2025-05-04 11:42:15,094 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,094 - 	❌ LSJ did not help
+2025-05-04 11:42:15,094 - Sending to macronization_modules: ἄπιστον (ἄπιστος, ADJ, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,094 - 🔄 Macronizing: ἄπιστον (ἄπιστος, ADJ, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,095 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,095 - 	✅ Hypotactic helped: ἄπι^στον => ἄ^πι^στον, with 0 left
+2025-05-04 11:42:15,095 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,096 - 	❌ LSJ did not help
+2025-05-04 11:42:15,096 - Sending to macronization_modules: ἐγκύμονι (ἐγκύμων, NOUN, Case=Dat|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,096 - 🔄 Macronizing: ἐγκύμονι (ἐγκύμων, NOUN, Case=Dat|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,096 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,097 - 	✅ Hypotactic helped: ἐγκύμονι => ἐγκύ_μονι^, with 0 left
+2025-05-04 11:42:15,097 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,097 - 	❌ LSJ did not help
+2025-05-04 11:42:15,097 - Sending to macronization_modules: τεύχεσιν (τεῦχος, NOUN, Case=Dat|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,098 - 🔄 Macronizing: τεύχεσιν (τεῦχος, NOUN, Case=Dat|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,098 - 	✅ Wiktionary: τεύχεσιν => τεύχεσι^ν, with 0 left
+2025-05-04 11:42:15,098 - Sending to macronization_modules: ἀστράπτουσαν (ἀστράπτω, VERB, Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,098 - 🔄 Macronizing: ἀστράπτουσαν (ἀστράπτω, VERB, Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,098 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,099 - 	✅ Hypotactic helped: ἀστράπτουσαν => ἀστράπτουσα^ν, with 0 left
+2025-05-04 11:42:15,100 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,100 - 	❌ LSJ did not help
+2025-05-04 11:42:15,100 - Sending to macronization_modules: ἀνηκόντιζεν (ἀνηκόντιζεν, VERB, Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,100 - 🔄 Macronizing: ἀνηκόντιζεν (ἀνηκόντιζεν, VERB, Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,101 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,101 - No new version, returning old version
+2025-05-04 11:42:15,101 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,102 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,102 - 	❌ LSJ did not help
+2025-05-04 11:42:15,103 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,104 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,104 - 	 Unprefixed lemma for ἀνηκόντιζεν: ηκοντιζεν
+2025-05-04 11:42:15,104 - Sending to macronization_modules: ἄξατέ (ἄξατέ, VERB, Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,104 - 🔄 Macronizing: ἄξατέ (ἄξατέ, VERB, Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,104 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,105 - No new version, returning old version
+2025-05-04 11:42:15,105 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,105 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,105 - 	❌ LSJ did not help
+2025-05-04 11:42:15,105 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,106 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,106 - 	 Prefix token for ἄξατέ: ἄξατέ
+2025-05-04 11:42:15,106 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,106 - 🔄 Macronizing: ἄξατε (ἄξατέ, VERB, Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,107 - 	✅ Wiktionary: ἄξατε => ἄ^ξα^τε, with 0 left
+2025-05-04 11:42:15,107 - 	 One-accent token macronized (last): ἄ^ξα^τε
+2025-05-04 11:42:15,107 - 	✅ Double accent macronization helped: 0 left
+2025-05-04 11:42:15,107 - Sending to macronization_modules: νάρθηκα (νάρθηκα, NOUN, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,107 - 🔄 Macronizing: νάρθηκα (νάρθηκα, NOUN, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,107 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,108 - 	✅ Hypotactic helped: νάρθηκα => νάρθηκα_, with 0 left
+2025-05-04 11:42:15,108 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,108 - 	❌ LSJ did not help
+2025-05-04 11:42:15,109 - Sending to macronization_modules: τινάξατε (τινάσσω, VERB, Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,109 - 🔄 Macronizing: τινάξατε (τινάσσω, VERB, Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,109 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,109 - No new version, returning old version
+2025-05-04 11:42:15,109 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,110 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,110 - 	❌ LSJ did not help
+2025-05-04 11:42:15,110 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,111 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,111 - 	 Prefix token for τινάξατε: τινάξατε
+2025-05-04 11:42:15,111 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,112 - Sending to macronization_modules: κύμβαλα (κύμβαλον, NOUN, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,112 - 🔄 Macronizing: κύμβαλα (κύμβαλον, NOUN, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,112 - 	✅ Wiktionary: κύμβαλα => κύ^μβα^λα^, with 0 left
+2025-05-04 11:42:15,112 - Sending to macronization_modules: παλάμῃ (παλάμῃ, NOUN, Case=Dat|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,112 - 🔄 Macronizing: παλάμῃ (παλάμῃ, NOUN, Case=Dat|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,113 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,113 - 	✅ Hypotactic helped: παλάμῃ => πα^λά^μῃ, with 0 left
+2025-05-04 11:42:15,113 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,114 - 	❌ LSJ did not help
+2025-05-04 11:42:15,114 - Sending to macronization_modules: ἀειδομένου (ἀείδω, VERB, Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid)
+2025-05-04 11:42:15,114 - 🔄 Macronizing: ἀειδομένου (ἀείδω, VERB, Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid)
+2025-05-04 11:42:15,114 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,114 - No new version, returning old version
+2025-05-04 11:42:15,114 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,115 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,115 - 	❌ LSJ did not help
+2025-05-04 11:42:15,116 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,116 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,117 - 	 Prefix token for ἀειδομένου: ἀειδομένου
+2025-05-04 11:42:15,117 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,117 - Sending to macronization_modules: Διονύσου (διόνυσος, NOUN, Case=Gen|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,117 - 🔄 Macronizing: Διονύσου (διόνυσος, NOUN, Case=Gen|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,117 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,118 - 	✅ Hypotactic helped: Διονύσου => Δι^ονύ_σου, with 0 left
+2025-05-04 11:42:15,118 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,119 - 	❌ LSJ did not help
+2025-05-04 11:42:15,119 - Sending to macronization_modules: ἀλλὰ (ἀλλά, CCONJ, )
+2025-05-04 11:42:15,119 - 🔄 Macronizing: ἀλλὰ (ἀλλά, CCONJ, )
+2025-05-04 11:42:15,119 - Sending to macronization_modules: ψαύοντα (ψαύω, VERB, Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,119 - 🔄 Macronizing: ψαύοντα (ψαύω, VERB, Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act)
+2025-05-04 11:42:15,119 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,119 - 	✅ Hypotactic helped: ψαύοντα => ψαύοντα^, with 0 left
+2025-05-04 11:42:15,120 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,120 - 	❌ LSJ did not help
+2025-05-04 11:42:15,120 - Sending to macronization_modules: Φάρῳ (Φάρῳ, VERB, Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,120 - 🔄 Macronizing: Φάρῳ (Φάρῳ, VERB, Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,121 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,121 - No new version, returning old version
+2025-05-04 11:42:15,121 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,121 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,121 - 	❌ LSJ did not help
+2025-05-04 11:42:15,121 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,122 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,122 - 	 Prefix token for Φάρῳ: Φάρῳ
+2025-05-04 11:42:15,122 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,122 - Sending to macronization_modules: παρὰ (παρά, ADP, )
+2025-05-04 11:42:15,122 - 🔄 Macronizing: παρὰ (παρά, ADP, )
+2025-05-04 11:42:15,122 - Sending to macronization_modules: γείτονι (γείτων, NOUN, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,122 - 🔄 Macronizing: γείτονι (γείτων, NOUN, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,123 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,123 - 	✅ Hypotactic helped: γείτονι => γείτονι^, with 0 left
+2025-05-04 11:42:15,124 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,124 - 	❌ LSJ did not help
+2025-05-04 11:42:15,124 - Sending to macronization_modules: στήσατέ (στήσατέ, VERB, Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,124 - 🔄 Macronizing: στήσατέ (στήσατέ, VERB, Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,124 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,124 - No new version, returning old version
+2025-05-04 11:42:15,124 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,125 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,125 - 	❌ LSJ did not help
+2025-05-04 11:42:15,125 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,126 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,126 - 	 Prefix token for στήσατέ: στήσατέ
+2025-05-04 11:42:15,126 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,126 - 🔄 Macronizing: στήσατε (στήσατέ, VERB, Aspect=Perf|Mood=Imp|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,127 - 	✅ Wiktionary: στήσατε => στήσα^τε, with 0 left
+2025-05-04 11:42:15,127 - 	 One-accent token macronized (last): στήσα^τε
+2025-05-04 11:42:15,127 - 	✅ Double accent macronization helped: 0 left
+2025-05-04 11:42:15,127 - Sending to macronization_modules: Πρωτῆα (Πρωτῆα, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,127 - 🔄 Macronizing: Πρωτῆα (Πρωτῆα, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,127 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,128 - No new version, returning old version
+2025-05-04 11:42:15,128 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,128 - 	✅ Accent rules helped: Πρωτῆα => Πρωτῆα^, with 0 left
+2025-05-04 11:42:15,128 - 	❌ LSJ did not help
+2025-05-04 11:42:15,128 - Sending to macronization_modules: ὄφρα (ὄφρα, SCONJ, )
+2025-05-04 11:42:15,128 - 🔄 Macronizing: ὄφρα (ὄφρα, SCONJ, )
+2025-05-04 11:42:15,129 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,129 - 	✅ Hypotactic helped: ὄφρα => ὄφρα^, with 0 left
+2025-05-04 11:42:15,129 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,129 - 	❌ LSJ did not help
+2025-05-04 11:42:15,129 - Sending to macronization_modules: φανείη (φανείη, VERB, Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass)
+2025-05-04 11:42:15,129 - 🔄 Macronizing: φανείη (φανείη, VERB, Mood=Opt|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass)
+2025-05-04 11:42:15,130 - 	✅ Wiktionary: φανείη => φα^νείη, with 0 left
+2025-05-04 11:42:15,130 - Sending to macronization_modules: ποικίλον (ποικίλος, ADJ, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,130 - 🔄 Macronizing: ποικίλον (ποικίλος, ADJ, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,130 - 	✅ Wiktionary: ποικίλον => ποικί^λον, with 0 left
+2025-05-04 11:42:15,130 - Sending to macronization_modules: ὅτι (ὅτι, SCONJ, )
+2025-05-04 11:42:15,130 - 🔄 Macronizing: ὅτι (ὅτι, SCONJ, )
+2025-05-04 11:42:15,131 - 	✅ Wiktionary: ὅτι => ὅτι^, with 0 left
+2025-05-04 11:42:15,131 - Sending to macronization_modules: ποικίλον (ποικίλος, ADJ, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,131 - 🔄 Macronizing: ποικίλον (ποικίλος, ADJ, Case=Acc|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,131 - 	✅ Wiktionary: ποικίλον => ποικί^λον, with 0 left
+2025-05-04 11:42:15,131 - Sending to macronization_modules: ἀράσσω (ἀράσσω, VERB, Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,131 - 🔄 Macronizing: ἀράσσω (ἀράσσω, VERB, Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,131 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,132 - No new version, returning old version
+2025-05-04 11:42:15,132 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,132 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,132 - 	❌ LSJ did not help
+2025-05-04 11:42:15,133 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,133 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,133 - 	 Prefix token for ἀράσσω: ἀράσσω
+2025-05-04 11:42:15,133 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,134 - Sending to macronization_modules: γὰρ (γάρ, PART, )
+2025-05-04 11:42:15,134 - 🔄 Macronizing: γὰρ (γάρ, PART, )
+2025-05-04 11:42:15,134 - Sending to macronization_modules: δράκων (δράκων, NOUN, Case=Nom|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,134 - 🔄 Macronizing: δράκων (δράκων, NOUN, Case=Nom|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,134 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,134 - 	✅ Hypotactic helped: δράκων => δρά^κων, with 0 left
+2025-05-04 11:42:15,135 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,135 - 	❌ LSJ did not help
+2025-05-04 11:42:15,135 - Sending to macronization_modules: ἄεθλον (ἆθλον, NOUN, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,135 - 🔄 Macronizing: ἄεθλον (ἆθλον, NOUN, Case=Acc|Gender=Neut|Number=Sing)
+2025-05-04 11:42:15,135 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,136 - 	✅ Hypotactic helped: ἄεθλον => ἄ^εθλον, with 0 left
+2025-05-04 11:42:15,136 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,136 - 	❌ LSJ did not help
+2025-05-04 11:42:15,136 - Sending to macronization_modules: κισσώδεϊ (κισσώδης, ADJ, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,136 - 🔄 Macronizing: κισσώδεϊ (κισσώδης, ADJ, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,137 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,137 - No new version, returning old version
+2025-05-04 11:42:15,137 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,138 - 	✅ Accent rules helped: κισσώδεϊ => κισσώδεϊ^, with 0 left
+2025-05-04 11:42:15,138 - 	❌ LSJ did not help
+2025-05-04 11:42:15,138 - Sending to macronization_modules: φρικτὰ (φρικτός, ADJ, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,138 - 🔄 Macronizing: φρικτὰ (φρικτός, ADJ, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,139 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,139 - No new version, returning old version
+2025-05-04 11:42:15,139 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,139 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,140 - 	❌ LSJ did not help
+2025-05-04 11:42:15,140 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,140 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,140 - 	 Prefix token for φρικτὰ: φρικτὰ
+2025-05-04 11:42:15,140 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,141 - 	 Testing for 2D wrong-case-ending recursion: φρικτὰ (φρικτός)
+2025-05-04 11:42:15,141 - No new version, returning old version
+2025-05-04 11:42:15,141 - 	❌ Wrong-case-ending did not help
+2025-05-04 11:42:15,141 - 🔄 Macronizing (oxytonized): φρικτά (φρικτός, ADJ, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,141 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,141 - No new version, returning old version
+2025-05-04 11:42:15,141 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,142 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,142 - 	❌ LSJ did not help
+2025-05-04 11:42:15,142 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,143 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,143 - 	 Prefix token for φρικτά: φρικτά
+2025-05-04 11:42:15,143 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,143 - 	 Testing for 2D wrong-case-ending recursion: φρικτά (φρικτός)
+2025-05-04 11:42:15,143 - No new version, returning old version
+2025-05-04 11:42:15,143 - 	❌ Wrong-case-ending did not help
+2025-05-04 11:42:15,143 - 	❌ Oxytonizing did not help
+2025-05-04 11:42:15,143 - Sending to macronization_modules: δρακοντοκόμων (δρακοντοκόμος, NOUN, Case=Gen|Gender=Masc|Number=Plur)
+2025-05-04 11:42:15,143 - 🔄 Macronizing: δρακοντοκόμων (δρακοντοκόμος, NOUN, Case=Gen|Gender=Masc|Number=Plur)
+2025-05-04 11:42:15,144 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,144 - No new version, returning old version
+2025-05-04 11:42:15,144 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,145 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,145 - 	❌ LSJ did not help
+2025-05-04 11:42:15,146 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,147 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,147 - 	 Prefix token for δρακοντοκόμων: δρακοντοκόμων
+2025-05-04 11:42:15,147 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,147 - 	 Testing for 2D wrong-case-ending recursion: δρακοντοκόμων (δρακοντοκόμος)
+2025-05-04 11:42:15,147 - 🔄 Macronizing (different-ending): δρακοντοκόμος (δρακοντοκόμος, NOUN, Case=Gen|Gender=Masc|Number=Plur)
+2025-05-04 11:42:15,147 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,148 - No new version, returning old version
+2025-05-04 11:42:15,148 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,149 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,149 - 	❌ LSJ did not help
+2025-05-04 11:42:15,149 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,151 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,151 - 	 Prefix token for δρακοντοκόμος: δρακοντοκόμος
+2025-05-04 11:42:15,151 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,151 - 	❌ Wrong-case-ending did not help
+2025-05-04 11:42:15,152 - Sending to macronization_modules: ἐδαΐζετο (δαίζω, VERB, Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid)
+2025-05-04 11:42:15,152 - 🔄 Macronizing: ἐδαΐζετο (δαίζω, VERB, Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid)
+2025-05-04 11:42:15,152 - 	✅ Wiktionary: ἐδαΐζετο => ἐδα^ΐ^ζετο, with 0 left
+2025-05-04 11:42:15,152 - Sending to macronization_modules: φῦλα (φῦλον, NOUN, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,152 - 🔄 Macronizing: φῦλα (φῦλον, NOUN, Case=Acc|Gender=Neut|Number=Plur)
+2025-05-04 11:42:15,153 - 	✅ Wiktionary: φῦλα => φῦλα^, with 0 left
+2025-05-04 11:42:15,153 - Sending to macronization_modules: Γιγάντων (γίγας, NOUN, Case=Gen|Gender=Masc|Number=Plur)
+2025-05-04 11:42:15,153 - 🔄 Macronizing: Γιγάντων (γίγας, NOUN, Case=Gen|Gender=Masc|Number=Plur)
+2025-05-04 11:42:15,153 - 	✅ Wiktionary: Γιγάντων => Γι^γά^ντων, with 0 left
+2025-05-04 11:42:15,153 - Sending to macronization_modules: ἐπαυχενίην (ἐπαυχενῖος, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,153 - 🔄 Macronizing: ἐπαυχενίην (ἐπαυχενῖος, ADJ, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,154 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,154 - No new version, returning old version
+2025-05-04 11:42:15,154 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,155 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,155 - 	❌ LSJ did not help
+2025-05-04 11:42:15,155 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,156 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,156 - 	 Prefix token for ἐπαυχενίην: ἐπαυχενίην
+2025-05-04 11:42:15,156 - 	❌ Prefix macronization did not help
+2025-05-04 11:42:15,156 - 	 Testing for 2D wrong-case-ending recursion: ἐπαυχενίην (ἐπαυχενῖος)
+2025-05-04 11:42:15,156 - No new version, returning old version
+2025-05-04 11:42:15,156 - 	❌ Wrong-case-ending did not help
+2025-05-04 11:42:15,157 - Sending to macronization_modules: τρίχα (θρίξ, NOUN, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,157 - 🔄 Macronizing: τρίχα (θρίξ, NOUN, Case=Acc|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,157 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,157 - 	✅ Hypotactic helped: τρίχα => τρί^χα^, with 0 left
+2025-05-04 11:42:15,158 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,158 - 	❌ LSJ did not help
+2025-05-04 11:42:15,158 - Sending to macronization_modules: ἀνευάξω (ἀνευάγω, VERB, Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,158 - 🔄 Macronizing: ἀνευάξω (ἀνευάγω, VERB, Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act)
+2025-05-04 11:42:15,158 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,159 - No new version, returning old version
+2025-05-04 11:42:15,159 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,159 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,159 - 	❌ LSJ did not help
+2025-05-04 11:42:15,160 - 	❌ Nominal forms did not help
+2025-05-04 11:42:15,160 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,160 - 	 Unprefixed lemma for ἀνευάξω: ευαγω
+2025-05-04 11:42:15,161 - Sending to macronization_modules: βλοσυρῆς (βλοσυρῆ, NOUN, Case=Gen|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,161 - 🔄 Macronizing: βλοσυρῆς (βλοσυρῆ, NOUN, Case=Gen|Gender=Fem|Number=Sing)
+2025-05-04 11:42:15,161 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,162 - 	✅ Hypotactic helped: βλοσυρῆς => βλοσυ^ρῆς, with 0 left
+2025-05-04 11:42:15,162 - 	❌ Accent rules did not help
+2025-05-04 11:42:15,162 - 	❌ LSJ did not help
+2025-05-04 11:42:15,163 - Sending to macronization_modules: ἐπὶ (ἐπί, ADP, )
+2025-05-04 11:42:15,163 - 🔄 Macronizing: ἐπὶ (ἐπί, ADP, )
+2025-05-04 11:42:15,163 - Sending to macronization_modules: πήχεϊ (πήχος, NOUN, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,163 - 🔄 Macronizing: πήχεϊ (πήχος, NOUN, Case=Dat|Gender=Masc|Number=Sing)
+2025-05-04 11:42:15,163 - 	❌ Wiktionary did not help
+2025-05-04 11:42:15,163 - No new version, returning old version
+2025-05-04 11:42:15,163 - 	❌ Hypotactic did not help
+2025-05-04 11:42:15,164 - 	✅ Accent rules helped: πήχεϊ => πήχεϊ^, with 0 left
+2025-05-04 11:42:15,164 - 	❌ LSJ did not help
+2025-05-04 11:42:15,164 - 
+
+### END OF MACRONIZATION ###
+
+
+2025-05-04 11:42:15,182 - RESULT LIST: Found 15 results in wiktionary_results
+2025-05-04 11:42:15,182 - RESULT LIST: Found 26 results in hypotactic_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in lsj_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in nominal_forms_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in verbal_forms_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 7 results in accent_rules_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in prefix_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in lemma_generalization_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 4 results in custom_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 2 results in double_accent_recursion_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in case_ending_recursion_results
+2025-05-04 11:42:15,183 - RESULT LIST: Found 0 results in reversed_elision_recursion_results
