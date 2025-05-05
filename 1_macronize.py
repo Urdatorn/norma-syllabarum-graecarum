@@ -1,7 +1,7 @@
 from grc_macronizer import Macronizer
 from grc_utils import colour_dichrona_in_open_syllables
 
-input_name = "quintus"
+input_name = "insolem"
 
 with open(f"raw/{input_name}.txt", "r", encoding="utf-8") as f:
     text = f.read()
