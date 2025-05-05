@@ -3,19 +3,18 @@
 We introduce NSG as a common benchmark for the evaluation and comparison of NLP tools concerning the markup of prosodical features of Ancient Greek (*grc*) corpora. Three prosodical features are marked up explicitly: syllable boundary, syllable weight and vowel length. Derivately, this means that sandhi phenomena and, for verse, metre are also covered.
 
 Short excerpts of about 20 lines from each of the below:
-- Homer (*In Solem* 1-19)
+- Homer (*In Solem* 1-19, hexameter)
 - Alcman
 - Aristophanes (*Acharnenses*)
-- Sophocles (*Supplices* 1-10, anapests)
-- Aeschylus
-- Euripides (*Bacchae*)
-- Plato (*Cratylus*)
-- Thucydides
-- Xenophon (*Anabasis*)
-- Dioscorides
+- Sophocles (*Oedipus Tyrannus* 1-20, iambic trimeter)
+- Aeschylus (*Supplices* 1-10, anapests)
+- Euripides (*Bacchae* 1-20, iambic trimeter)
+- Plato (*Cratylus*, prose)
+- Thucydides (prose)
+- Dioscorides (elegiac distichs)
 - Plutarch
-- Epictetus
-- Origenes
+- Epictetus (*Enchiridion* 1.1.1-1.5.1)
+- Origenes (*Contra Celsum* 1.1-1.20)
 - Nonnus
 - Quintus (*Posthomerica* 1-20)
 
