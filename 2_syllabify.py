@@ -1,7 +1,8 @@
 import re
 from grc_utils import colour_dichrona_in_open_syllables, count_dichrona_in_open_syllables, short_set, syllabifier
 
-input_name = "insolem"
+input_name = "oedipus"
+hexameter = False
 
 with open(f"macronized/{input_name}.txt", "r", encoding="utf-8") as f:
     macronized_text = f.read()
@@ -38,8 +39,9 @@ print("\nTotal number of open syllables:", count_dichrona_in_open_syllables(fina
 
 hexameter_pattern = re.compile(r"(\[.+?\]|\{.+?\}\{.+?\}){11}(\[.+?\]|\{.+?\})")
 
-for i, line in enumerate(lines, 1):
-    if hexameter_pattern.fullmatch(line):
-        print(f"Line {i} ✅ conforms")
-    else:
-        print(f"Line {i} ❌ does NOT conform")
+if hexameter:
+    for i, line in enumerate(lines, 1):
+        if hexameter_pattern.fullmatch(line):
+            print(f"Line {i} ✅ conforms")
+        else:
+            print(f"Line {i} ❌ does NOT conform")
