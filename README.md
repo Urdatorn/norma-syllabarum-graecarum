@@ -12,13 +12,13 @@ Short excerpts of about 20 lines from each of the below:
 - Plato (*Cratylus*, prose)
 - Thucydides (prose)
 - Dioscorides (elegiac distichs)
-- Plutarch
+- Plutarch (*Stoicos absurdiora poetis dicere* 1057.C1-F1)
 - Epictetus (*Enchiridion* 1.1.1-1.5.1)
 - Origenes (*Contra Celsum* 1.1-1.20)
-- Nonnus
+- Nonnus (*Dionysiaca* 1-20)
 - Quintus (*Posthomerica* 1-20)
 
-We also include here the marked up corpus of all 79 textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophaean corpus separately.
+We also include here the marked up corpus of all 79 textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.
 
 # Markup Format
 

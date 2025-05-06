@@ -1,7 +1,7 @@
 import re
 from grc_utils import colour_dichrona_in_open_syllables, count_dichrona_in_open_syllables, short_set, syllabifier
 
-input_name = "insolem"
+input_name = "oedipus"
 
 with open(f"final/{input_name}.txt", "r", encoding="utf-8") as f:
     text = f.read()
