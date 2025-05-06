@@ -3,20 +3,21 @@
 We introduce NSG as a common benchmark for the evaluation and comparison of NLP tools concerning the markup of prosodical features of Ancient Greek (*grc*) corpora. Three prosodical features are marked up explicitly: syllable boundary, syllable weight and vowel length. Derivately, this means that sandhi phenomena and, for verse, metre are also covered.
 
 Short excerpts of about 20 lines from each of the below:
+
 - Homer (*In Solem* 1-19, hexameter) ✅
-- Alcman
+- Alcman (*Louvre Partheneion* 1-14)
 - Aristophanes (*Acharnenses*)
 - Sophocles (*Oedipus Tyrannus* 1-20, iambic trimeter) ✅
-- Aeschylus (*Supplices* 1-10, anapests) ✅
+- Aeschylus (*Supplices* 1-10, anapaests) ✅
 - Euripides (*Bacchae* 1-20, iambic trimeter)
-- Plato (*Cratylus*, prose)
-- Thucydides (prose)
+- Plato (*Cratylus* 383-384a5, prose) ✅
+- Thucydides (*Thucydidis historiae* 1.1.1.1-1.2.2.1, prose)
 - Dioscorides (elegiac distichs) ✅
-- Plutarch (*Stoicos absurdiora poetis dicere* 1057.C1-F1)
-- Epictetus (*Enchiridion* 1.1.1-1.5.1) ✅
-- Origenes (*Contra Celsum* 1.1-1.20) ✅
-- Nonnus (*Dionysiaca* 1-20) ✅
-- Quintus (*Posthomerica* 1-20) ✅
+- Plutarch (*Stoicos absurdiora poetis dicere* 1057.C1-F1, prose) ✅
+- Epictetus (*Enchiridion* 1.1.1-1.5.1, prose) ✅
+- Origenes (*Contra Celsum* 1.1-1.20, prose) ✅
+- Nonnus (*Dionysiaca* 1-20, hexameter) ✅
+- Quintus (*Posthomerica* 1-20, hexameter) ✅
 
 We also include here the marked up corpus of all 79 textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.
 
