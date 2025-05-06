@@ -1,7 +1,7 @@
 import re
 from grc_utils import colour_dichrona_in_open_syllables, count_dichrona_in_open_syllables, short_set, syllabifier
 
-input_name = "enchiridion"
+input_name = "plutarchus"
 hexameter = False
 
 with open(f"macronized/{input_name}.txt", "r", encoding="utf-8") as f:
