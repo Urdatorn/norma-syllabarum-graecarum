@@ -2,7 +2,7 @@
 
 We introduce NSG as a common benchmark for the evaluation and comparison of NLP tools concerning the markup of prosodical features of Ancient Greek (*grc*) corpora. Three prosodical features are marked up explicitly: syllable boundary, syllable weight and vowel length. Derivately, this means that sandhi phenomena and, for verse, metre are also covered.
 
-Short excerpts of about 20 lines from each of the below:
+Short excerpts of about 20 lines from each of the below 14 authors:
 
 - Homer (*In Solem* 1-19, hexameter) ✅
 - Alcman (*Louvre Partheneion* 36-49, mix of aeolic, trochaic and dactylic cola, NB: contains ϝ) ✅
