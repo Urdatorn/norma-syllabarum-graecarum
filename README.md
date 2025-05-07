@@ -5,11 +5,11 @@ We introduce NSG as a common benchmark for the evaluation and comparison of NLP 
 Short excerpts of about 20 lines from each of the below:
 
 - Homer (*In Solem* 1-19, hexameter) ✅
-- Alcman (*Louvre Partheneion* 1-14)
-- Aristophanes (*Acharnenses* 1-20, iambic trimeter)
+- Alcman (*Louvre Partheneion* 36-49, mix of aeolic, trochaic and dactylic cola, NB: contains ϝ) ✅
+- Aristophanes (*Acharnenses* 1-16, iambic trimeter) ✅
 - Sophocles (*Oedipus Tyrannus* 1-20, iambic trimeter) ✅
 - Aeschylus (*Supplices* 1-10, anapaests) ✅
-- Euripides (*Bacchae* 1-20, iambic trimeter)
+- Euripides (*Bacchae* 1-20, iambic trimeter) ✅
 - Plato (*Cratylus* 383-384a5, prose) ✅
 - Thucydides (*Thucydidis historiae* 1.1.1.1-1.2.2.1, prose) ✅
 - Dioscorides (*Anthologia Graeca* 5.55, elegiac distichs) ✅
