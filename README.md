@@ -6,18 +6,18 @@ Short excerpts of about 20 lines from each of the below:
 
 - Homer (*In Solem* 1-19, hexameter) ✅
 - Alcman (*Louvre Partheneion* 1-14)
-- Aristophanes (*Acharnenses*)
+- Aristophanes (*Acharnenses* 1-20, iambic trimeter)
 - Sophocles (*Oedipus Tyrannus* 1-20, iambic trimeter) ✅
 - Aeschylus (*Supplices* 1-10, anapaests) ✅
 - Euripides (*Bacchae* 1-20, iambic trimeter)
 - Plato (*Cratylus* 383-384a5, prose) ✅
-- Thucydides (*Thucydidis historiae* 1.1.1.1-1.2.2.1, prose)
-- Dioscorides (elegiac distichs) ✅
+- Thucydides (*Thucydidis historiae* 1.1.1.1-1.2.2.1, prose) ✅
+- Dioscorides (*Anthologia Graeca* 5.55, elegiac distichs) ✅
 - Plutarch (*Stoicos absurdiora poetis dicere* 1057.C1-F1, prose) ✅
 - Epictetus (*Enchiridion* 1.1.1-1.5.1, prose) ✅
 - Origenes (*Contra Celsum* 1.1-1.20, prose) ✅
-- Nonnus (*Dionysiaca* 1-20, hexameter) ✅
-- Quintus (*Posthomerica* 1-20, hexameter) ✅
+- Nonnus (*Dionysiaca* 1-20, dactylic hexameter) ✅
+- Quintus (*Posthomerica* 1-20, dactylic hexameter) ✅
 
 We also include here the marked up corpus of all 79 textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.
 
