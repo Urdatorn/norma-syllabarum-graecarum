@@ -19,7 +19,7 @@ Short excerpts of about 20 lines from each of the below 14 authors:
 - Nonnus (*Dionysiaca* 1-20, dactylic hexameter) ✅
 - Quintus (*Posthomerica* 1-20, dactylic hexameter) ✅
 
-We also include here the marked up corpus of all 79 textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.
+(Soon we will also include here the marked up corpus of all textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.)
 
 # Markup Format
 
@@ -40,4 +40,6 @@ In the same way, epic correption or shortening of long vowels before word-end hi
 We also have an example of a word that avoids the normal rules of syllabification:
 - ...[ῇ]**{σι^ }{Σκα^}**[μάν][δρου,] (*Posthomerica*, 10)
 
-# Method
+# Researchers
+
+This benchmark is part of ongoing research projects by Albin Thörn Cleland at Lund university and Eric Cullhed at Uppsala university. Its new syllabified and macronized editions of ancient texts are made available under the copyleft GNU GPL licence.
