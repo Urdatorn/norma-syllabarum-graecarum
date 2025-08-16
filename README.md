@@ -2,7 +2,7 @@
 
 We introduce NSG as a common benchmark for the evaluation and comparison of NLP tools concerning the markup of prosodical features of Ancient Greek (*grc*) corpora. Three prosodical features are marked up explicitly: syllable boundary, syllable weight and vowel length. Derivately, this means that sandhi phenomena and, for verse, metre are also covered.
 
-Short excerpts of about 20 lines from each of the below 14 authors:
+Short excerpts of about 20 lines from each of the below 14 authors, spanning many periods and genres:
 
 - Homer (*In Solem* 1-19, hexameter) ✅
 - Alcman (*Louvre Partheneion* 36-49, mix of aeolic, trochaic and dactylic cola, NB: contains ϝ) ✅
@@ -19,15 +19,19 @@ Short excerpts of about 20 lines from each of the below 14 authors:
 - Nonnus (*Dionysiaca* 1-20, dactylic hexameter) ✅
 - Quintus (*Posthomerica* 1-20, dactylic hexameter) ✅
 
-(Soon we will also include here the marked up corpus of all textually-sound responding songs of Aristophanes, borrowed from my project *Aristophanis Cantica*. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.)
+None of these texts snippets are included in the [Hypotactic](https://github.com/Urdatorn/hypotactic) corpus, which means that a model trained on Hypotactic will not have any unfair advantage.
 
-# Markup Format
+We also include here the marked-up corpus of all the 78 responding songs of Aristophanes, borrowed from my project [*Aristophanis Cantica*](https://github.com/Urdatorn/aristophanis-cantica). For further details, see that repository. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.
+
+## Markup Format
 
 The markup is straight-forward: 
 - square brackets [] enclose heavy syllables
 - curly brackets {} enclose light syllables
 - carets ^ follow short ambiguous vowels (α, ι, υ)
 - underscores _ follow long ambiguous vowels (α, ι, υ)
+
+In prose, for ease of comparison we consider the sentence to be the equivalent of the verse line, with the consequence that the final syllable of a sentence will be considered heavy if it ends with a consonant, even though the following sentence begins with a vowel; i.e. a prose *brevis in longo*.
 
 With regard to vowel length, the benchmark is designed to test performance of open (light) syllables only. This means that *all* open syllables with ambiguous vowels (α, ι, υ) have them marked with carets or underscores, while this is only *sporadically* true for closed syllables (and in such cases mostly before mute-liquid clusters).
 
@@ -40,6 +44,10 @@ In the same way, epic correption or shortening of long vowels before word-end hi
 We also have an example of a word that avoids the normal rules of syllabification:
 - ...[ῇ]**{σι^ }{Σκα^}**[μάν][δρου,] (*Posthomerica*, 10)
 
-# Researchers
+### Stoplist
+
+Since some of the excerpts contain rare proper-name word forms some of which, such as Alcman's Ἀγιδώ, are most likely *hapax legomenon*, we have collected all of these in an stop list, so that they can optionally be excluded from the benchmark.
+
+## Researchers
 
 This benchmark is part of ongoing research projects by Albin Thörn Cleland at Lund university and Eric Cullhed at Uppsala university. Its new syllabified and macronized editions of ancient texts are made available under the copyleft GNU GPL licence.
