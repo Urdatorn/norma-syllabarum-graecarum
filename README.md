@@ -1,36 +1,41 @@
 # Norma Syllabarum Graecarum - A Benchmark for grc Syllabification and Weight Labelling
 
-We introduce *Norma* as a common benchmark for the evaluation and comparison of NLP tools concerning the markup of prosodical features of Ancient Greek (*grc*) corpora. Three prosodical features are marked up explicitly: syllable boundary, syllable weight and vowel length. Derivately, this means that sandhi phenomena and, for verse, metre are also covered.
+We introduce *Norma* as a common benchmark for the evaluation and comparison of NLP tools concerning markup of two tasks for Ancient Greek (grc): 1) vowel length of dichronic vowels (alpha, iota, ypsilon) in open syllables (where they impact syllable weight) and 2) syllabification, both boundaries and weight. This means that the benchmark also indirectly tests handling of sandhi phenomena and, for verse, metre.
 
-Short excerpts of about 20 lines from each of the below 14 authors, spanning many periods and genres:
+The benchmark includes text by each of the below 16 authors, spanning many periods and genres of both verse and prose:
 
-- Homer (*In Solem* 1-19, hexameter) ✅
-- Alcman (*Louvre Partheneion* 36-49, mix of aeolic, trochaic and dactylic cola, NB: contains ϝ) ✅
-- Aristophanes (*Acharnenses* 1-16, iambic trimeter) ✅
-- Sophocles (*Oedipus Tyrannus* 1-20, iambic trimeter) ✅
-- Aeschylus (*Supplices* 1-10, anapaests) ✅
-- Euripides (*Bacchae* 1-20, iambic trimeter) ✅
-- Plato (*Cratylus* 383-384a5, prose) ✅
-- Thucydides (*Thucydidis historiae* 1.1.1.1-1.2.2.1, prose) ✅
-- Dioscorides (*Anthologia Graeca* 5.55, elegiac distichs) ✅
-- Plutarch (*Stoicos absurdiora poetis dicere* 1057.C1-F1, prose) ✅
-- Epictetus (*Enchiridion* 1.1.1-1.5.1, prose) ✅
-- Origenes (*Contra Celsum* 1.1-1.20, prose) ✅
-- Nonnus (*Dionysiaca* 1-20, dactylic hexameter) ✅
-- Quintus (*Posthomerica* 1-20, dactylic hexameter) ✅
+- Homer (*In Solem* 1-19, hexameter)
+- Alcman (*Louvre Partheneion* 36-49, mix of aeolic, trochaic and dactylic cola, NB: contains digamma, ϝ)
+- Pindar (*Pythia 4*, mixed aeolic and dactylic metres)
+- Bacchylides (*Epinikion 5*, anapaesto-iambic and dactylo-troachaic)
+- Aeschylus (*Supplices* 1-10, anapaests)
+- Sophocles (*Oedipus Tyrannus* 1-20, iambic trimeter)
+- Euripides (*Bacchae* 1-20, iambic trimeter)
+- Thucydides (*Thucydidis historiae* 1.1.1.1-1.2.2.1, prose)
+- Aristophanes (*Acharnenses* 1-16, iambic trimeter, and all 78 responding lyric songs)
+- Plato (*Cratylus* 383-384a5, prose)
+- Dioscorides (*Anthologia Graeca* 5.55, elegiac distichs)
+- Plutarch (*Stoicos absurdiora poetis dicere* 1057.C1-F1, prose)
+- Epictetus (*Enchiridion* 1.1.1-1.5.1, prose)
+- Origenes (*Contra Celsum* 1.1-1.20, prose)
+- Nonnus (*Dionysiaca* 1-20, dactylic hexameter)
+- Quintus (*Posthomerica* 1-20, dactylic hexameter)
 
-None of these texts snippets are included in the [Hypotactic](https://github.com/Urdatorn/hypotactic) corpus, which means that a model trained on Hypotactic will not have any unfair advantage.
+The texts have been chosen so that none (as of 2026) are included in the [Hypotactic](https://github.com/Urdatorn/hypotactic) corpus, which means that a model trained on Hypotactic will not have any unfair advantage. Except for Bacchylides, Pindar and Aristophanes, the texts are excerpts from works and not full works.
 
-We also include here the marked-up corpus of all the 78 responding songs of Aristophanes, borrowed from my project [*Aristophanis Cantica*](https://github.com/Urdatorn/aristophanis-cantica). For further details, see that repository. In order not to thus schew the benchmark towards comedy, it is recommended to test on the Aristophanean corpus separately.
+The 78 responding songs of Aristophanes are borrowed from my project [*Aristophanis Cantica*](https://github.com/Urdatorn/aristophanis-cantica). For further details, see that repository.
 
 ## Markup Format
 
-The markup is straight-forward:
+For the syllabification task the markup is:
 
 - square brackets [] enclose heavy syllables
 - curly brackets {} enclose light syllables
+
+and for the macronization task the markup is:
+
 - carets ^ follow short ambiguous vowels (α, ι, υ)
-- underscores _ follow long ambiguous vowels (α, ι, υ)
+- underscores _ follow long ambiguous vowels (α, ι, υ).
 
 In prose, for ease of comparison we consider the sentence to be the equivalent of the verse line, with the consequence that the final syllable of a sentence will be considered heavy if it ends with a consonant, even though the following sentence begins with a vowel; i.e. a prose *brevis in longo*.
 
@@ -52,7 +57,7 @@ We also have an example of a word that avoids the normal rules of syllabificatio
 
 Since some of the excerpts contain rare proper-name word forms some of which, such as Alcman's Ἀγιδώ, are most likely *hapax legomenon*, we have collected all of these in an stop list, so that they can optionally be excluded from the benchmark.
 
-## Researchers
+## How to cite
 
 This benchmark is part of ongoing research projects by Albin Thörn Cleland at Lund university and Eric Cullhed at Uppsala university. Its new syllabified and macronized editions of ancient texts are made available under the copyleft GNU GPL licence. If you use this benchmark in your own research, please cite it in the following way:
 
