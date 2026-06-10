@@ -1,0 +1,8 @@
+.vscode/
+diagnostics/*
+diagnostics
+.DS_Store
+
+1_*
+2_*
+3_*
