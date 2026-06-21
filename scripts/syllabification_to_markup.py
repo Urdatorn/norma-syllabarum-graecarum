@@ -7,6 +7,7 @@ When starting from texts that only have syllabification, like
 we need to automatically extract macron info and write the markup (^ for short and _ for long dichrona).
 '''
 
+import os
 import re
 from grc_utils import DICHRONA, is_diphthong, short_set, short_vowel, vowel, word_with_real_dichrona
 
@@ -55,4 +56,8 @@ def process_file(input_path, output_path):
             output_file.write(new_line + "\n")
 
 if __name__ == "__main__":
-    process_file("norma_syllabify/pindar_raw.txt", "norma_syllabify/pindar.txt")
+    for filename in os.listdir("norma_macronize"):
+        if filename.endswith(".txt"):
+            input_path = os.path.join("norma_macronize", filename)
+            output_path = os.path.join("norma_macronize", f"output_{filename[:-4]}.txt")
+            process_file(input_path, output_path)
